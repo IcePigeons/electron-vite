@@ -1,14 +1,14 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { getData } from '../api/user.ts'
+import { getData } from '../api/user'
 const a = ref(0)
 
 const get = () => {
   getData('林杰')
-    .then((res: never) => {
+    .then((res: any) => {
       console.log(res)
     })
-    .catch((err: never) => {
+    .catch((err: any) => {
       console.log(err)
     })
 }

@@ -1,6 +1,8 @@
 # my-app
 
-An Electron application with Vue and TypeScript
+Based on element-vite build：https://cn.electron-vite.org/guide/
+
+An Electron application template with vue3 and include vue-router、axios、pinia、element-plus
 
 ## Recommended IDE Setup
 
