@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import Versions from './components/Versions.vue'
+import Language from './components/Language.vue'
 
 // const ipcHandle = () => window.electron.ipcRenderer.send('ping')
 </script>
@@ -24,4 +25,6 @@ import Versions from './components/Versions.vue'
   </div> -->
   <router-view></router-view>
   <Versions />
+  <!-- 语言切换 -->
+  <Language></Language>
 </template>

@@ -16,5 +16,7 @@ const get = () => {
 
 <template>
   <div>Hello World{{ a }}</div>
+  <h1>{{ $t('login.loginBtn') }}</h1>
+  <h1>{{ $t('login.forgetPassword') }}</h1>
   <el-button type="primary" size="default" @click="get()">获取数据</el-button>
 </template>
